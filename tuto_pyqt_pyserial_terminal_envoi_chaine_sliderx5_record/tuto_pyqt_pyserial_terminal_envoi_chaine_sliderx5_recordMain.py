@@ -15,7 +15,7 @@ import serial # communication serie
 from tuto_pyqt_pyserial_terminal_envoi_chaine_sliderx5_record import * # fichier obtenu à partir QtDesigner et pyuic4
 
 class myApp(QWidget, Ui_Form): # la classe reçoit le Qwidget principal ET la classe définie dans test.py obtenu avec pyuic4
-  def __init__(self, parent=None):
+	def __init__(self, parent=None):
 		QWidget.__init__(self) # initialise le Qwidget principal 
 		self.setupUi(parent) # Obligatoire 
 
